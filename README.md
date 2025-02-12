@@ -3,14 +3,16 @@
 ## Description
 - Project using Nestjs & Prisma - Rest API demo
 - What inside?
-  [x] src/database - Prisma & Postgres
-  [x] src/main.ts - Entry ponit 
-  [x] src/modules - All api
+  - [x] src/database - Prisma & Postgres
+  - [x] src/main.ts - Entry ponit 
+    - useGlobalPipes for Validation the request body (Dto)
+    - 
+  - [x] src/modules - All api
     - AuthenModule: login using JwtService for sign token to username, 
     - Users: 
         - create User, hash user.password
         - find user by username
-  [x] db models:
+  - [x] db models:
     - User: id, email, name, username, password
     - 
 
